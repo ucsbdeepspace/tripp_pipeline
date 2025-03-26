@@ -1,5 +1,5 @@
-# sdi_pipeline
-SDI Pipeline 2.0.0
+# tripp_pipeline
+TRIPP Pipeline 2.0.0
 The purpose of the pipeline is to detect transients. The aim is to make this user-friendly, widely applicable, and efficient. To that end we have a few steps:
 
 1. Create a CAT file if it doesn't exist already: This is done using Source Extractor Python (SEP). This is a lightweight, python-native version of Sextractor. The parameters we get out of it are calculated in the same way SEXtractor calculates them. We are limited in the information we get out of SEP though. For example, we only get xy information and not RA DEC information, even though the information to do the conversion is available.
